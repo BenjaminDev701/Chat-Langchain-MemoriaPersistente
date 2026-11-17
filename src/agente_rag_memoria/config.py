@@ -6,6 +6,5 @@ load_dotenv()
 
 
 get_llm = init_chat_model(
-    model="openai:gpt-6-luna",
-    temperature=0.7
+    model="openai:gpt-6-luna"
 )
